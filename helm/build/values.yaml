@@ -1,0 +1,15 @@
+app:
+  name: sriayyag-poi-map-app
+  namespace: sriayyag
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/sriayyag-frontend
+  org: Summit23Janus1
+  name: sriayyag-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: sriayyag/poi-map-app
+  tag: latest
